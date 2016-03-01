@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>com.mydpy</groupId>
+    <artifactId>sparkml</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    
+    <name>Large Scale Machine Learning with Spark</name>
+    
+    <developers>
+        <developer>
+            <id>mbaker003c</id>
+            <name>Myles Baker</name>
+            <timezone>America/New_York</timezone>
+        </developer>
+    </developers>
+    
+    <modules>
+       <module>lr</module>
+    </modules>
+    
+    <properties>
+        <git.url></git.url>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    
+    <repositories>
+    </repositories>
+    
+    <scm>
+        <url>scm:git:${git.url}</url>
+        <connection>scm:git:${git.url}</connection>
+        <developerConnection>scm:git:${git.url}</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+    
+    <dependencies>
+        
+        
+    </dependencies>
+
+</project>
+
