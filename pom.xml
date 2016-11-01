@@ -22,7 +22,7 @@
     </modules>
     
     <properties>
-        <git.url></git.url>
+        <git.url>https://github.com/mydpy/spark-ml-book.git</git.url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     
